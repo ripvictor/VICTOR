@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emagreça com Sabor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .recipe {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .recipe img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .recipe-content {
+            padding: 20px;
+            flex: 1;
+        }
+        .recipe h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .recipe p {
+            margin: 10px 0;
+        }
+        .recipe a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .recipe a:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Emagreça com Sabor</h1>
+        <p>Receitas Saudáveis, Saborosas e Práticas para o Dia a Dia</p>
+    </header>
+
+    <div class="container">
+        <!-- Receita 1 -->
+        <div class="recipe">
+            <img src="https://via.placeholder.com/300x200" alt="Panqueca de Banana">
+            <div class="recipe-content">
+                <h3>Panqueca de Banana com Aveia</h3>
+                <p>Ingredientes: banana, ovo, aveia. Simples, delicioso e saudável!</p>
+                <a href="https://www.youtube.com" target="_blank">Assista ao Vídeo</a>
+            </div>
+        </div>
+
+        <!-- Receita 2 -->
+        <div class="recipe">
+            <img src="https://via.placeholder.com/300x200" alt="Smoothie Verde">
+            <div class="recipe-content">
+                <h3>Smoothie Verde Energizante</h3>
+                <p>Ingredientes: espinafre, abacaxi, limão, gengibre. Uma explosão de saúde!</p>
+                <a href="https://www.youtube.com" target="_blank">Assista ao Vídeo</a>
+            </div>
+        </div>
+
+        <!-- Receita 3 -->
+        <div class="recipe">
+            <img src="https://via.placeholder.com/300x200" alt="Frango com Purê de Abóbora">
+            <div class="recipe-content">
+                <h3>Frango Grelhado com Purê de Abóbora</h3>
+                <p>Ingredientes: frango, abóbora, salada colorida. Perfeito para o almoço!</p>
+                <a href="https://www.youtube.com" target="_blank">Assista ao Vídeo</a>
+            </div>
+        </div>
+
+        <!-- Receita 4 -->
+        <div class="recipe">
+            <img src="https://via.placeholder.com/300x200" alt="Bowl de Quinoa">
+            <div class="recipe-content">
+                <h3>Bowl de Quinoa com Legumes Assados</h3>
+                <p>Ingredientes: quinoa, cenoura, abobrinha, molho de iogurte. Nutritivo e leve!</p>
+                <a href="https://www.youtube.com" target="_blank">Assista ao Vídeo</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
